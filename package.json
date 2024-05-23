@@ -6,8 +6,6 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "nightwatch --env chrome --headless",
-    "preview:watch": "nodemon --watch src --watch public --exec \"npm run build && npm run preview\""
   },
   "dependencies": {
     "pinia": "2.0.24",
