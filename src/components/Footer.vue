@@ -7,7 +7,7 @@
           <div class="footer-text">
             <div class="social-links">
               <span class="social github"><a href="https://github.com/matteoxpo" target="_blank">Github Хромин</a></span>
-              <span class="social github"><a href="https://github.com/matteoxpo" target="_blank">Github Кашаев</a></span>
+              <span class="social github"><a href="https://github.com/the-asind" target="_blank">Github Кашаев</a></span>
             </div>
             <p>© 2024 АВТ-113 Хромин Кашаев team ^^</p>
           </div>

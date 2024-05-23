@@ -7,14 +7,16 @@
           <p>До конца акции осталось:</p>
           <div class="timer">{{ formattedTime }}</div>
           <form @submit.prevent="handleSubmit">
+            <div class="beta">
             <div class="form-group">
-              <label for="name">Имя:</label>
+              <label for="name">Имя: </label>
               <input type="text" id="name" v-model="name" required />
             </div>
             <div class="form-group">
-              <label for="phone">Номер телефона:</label>
+              <label for="phone">Номер телефона: </label>
               <input type="tel" id="phone" v-model="phone" required />
             </div>
+          </div>
             <button type="submit">Отправить</button>
           </form>
           <button @click="closePopup" class="close-button">Закрыть</button>
@@ -100,8 +102,16 @@
     font-size: 24px;
     margin: 10px 0;
   }
+
+  .beta {
+    width: 70%;
+    margin: center;
+    align-items: center;
+    justify-content: center;
+  }
   
   .form-group {
+    text-align: right;
     margin: 10px 0;
   }
   
@@ -128,6 +138,14 @@
   
   .open-button:hover {
     background-color: #0056b3;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
   }
   </style>
   

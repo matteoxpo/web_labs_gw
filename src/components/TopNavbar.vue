@@ -1,12 +1,15 @@
 <script setup>
 </script>
 <template>
+  
   <nav class="py-2 fixed-top">
     <div class="container d-flex flex-wrap">
       <ul class="nav me-auto">
+        <li class="nav-item"><router-link to="/" class="nav-link px-2 active" aria-current="page">Главная</router-link></li>
+        <li class="nav-item"><router-link to="/candleChart" class="nav-link px-2 active" aria-current="page">Свечи акций на МосБирже</router-link></li>
         <li class="nav-item"><a href="https://github.com/matteoxpo/web_labs_gw" target="_blank" class="nav-link px-2">Git</a></li>
-        <li class="nav-item"><a href="https://t.me/xpomin" target="_blank" class="nav-link px-2">Tg Хромин</a></li>
-        <li class="nav-item"><a href="https://t.me/a_sind" target="_blank" class="nav-link px-2">Tg Кашаев</a></li>
+        <li class="nav-item"><a href="https://t.me/xpomin" target="_blank" class="nav-link px-2">TG Хромин</a></li>
+        <li class="nav-item"><a href="https://t.me/a_sind" target="_blank" class="nav-link px-2">TG Кашаев</a></li>
       </ul>
     </div>
   </nav>
