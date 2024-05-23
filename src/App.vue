@@ -1,15 +1,17 @@
 <script setup>
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 
+import CountdownPopup from './components/CountdownPopup.vue';
 </script>
 
 <template>
-  <router-view></router-view>
+  <router-view />
+  <CountdownPopup />
 </template>
 
 <style>
 html, body {
-  background-color: #112933!important;
+  background-color: #ffffff !important;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

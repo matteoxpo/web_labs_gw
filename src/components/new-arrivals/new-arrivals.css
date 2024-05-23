@@ -1,11 +1,10 @@
-.new-arrivals-panel h1 {
+.new-arrivals-panel h3 {
   text-align: center;
-  color: #e1bee7;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 70px;
+  color: #ee5252;
+  font-size: 40px;
   font-weight: 100;
 }
+
 
 .new-arrival .col-md-6 {
   min-height: 298px;
@@ -25,7 +24,20 @@
 }
 .new-arrival .book-title {
   color: #f04e4e !important;
+  text-decoration: none;
 }
+
+
+a {
+  /* color: #ccc; */
+  color: #ee9ce7;
+  text-decoration: none;
+}
+a:hover {
+  /* color: #ccc; */
+  color: #ee5252;
+}
+
 .new-arrival .book-author {
   color: #e7bebe !important;
   font-weight: 400;
@@ -59,16 +71,4 @@
   padding-top: 15px;
   padding-left: 15px;
   font-weight: 600;
-}
-.new-arrival button.add-to-cart {
-  width: 50px;
-  height: 50px;
-  border: 0;
-  padding: 0;
-}
-.new-arrival button.add-to-cart:hover {
-  background-color: #2c3e50!important;
-}
-button.add-to-cart img{
-  width: 40px;
 }

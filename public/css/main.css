@@ -44,7 +44,6 @@
   transform: translateZ(-5px) scale(6);
 }
 
-
 .top-stars {
   margin-top: 0;
   height: 100vh;
@@ -65,16 +64,6 @@
   background-repeat: no-repeat;
 }
 
-.top-moon {
-  margin-top: 0;
-  height: 100vh;
-  background-image: url("../images-cloud/moon-home.svg");
-  background-size: 2054px, 389px;
-  background-position: center -webkit-calc(100vh - 750px);
-  background-position: center calc(100vh - 750px);
-  background-repeat: no-repeat;
-}
-
 .top-text {
   margin-top: calc(30vh - 130px);
   z-index: 2000;
@@ -82,9 +71,7 @@
 }
 
 .top-trees {
-  height: 100vh;
-  background-image: url("../images-cloud/middlemarch.png");
-  background-size: 1000px, 205px;
+  height: 50vh;
   background-position: center bottom;
   background-repeat: no-repeat;
   margin-bottom: -1px;
@@ -100,25 +87,23 @@
   font-weight: 100;
   letter-spacing: 1px;
   color: #f04e4e;
-  text-shadow: 1px 1px 1px #000;
+  /* text-shadow: 1px 1px 5px #ffffff; */
   font-family: 'Helvetica';
 }
 #top-section p {
-  color:#e6ee9c;
+  color:#1d609e;
   font-size: 20px;
   text-align: center;
 }
-#top-section h1>span {
-  color: #436775;
-}
+
 #top-section input[type=search] {
   border-radius: 9999px;
   font-size: 1.3rem;
-  background-color: rgba(0,0,0,.2);
+  background-color: rgb(255, 255, 255);
   color:#fff
 }
 #top-section input[type=search]:focus {
-  background-color: rgba(0,0,0,.1);
+  background-color: rgba(196, 189, 189, 0.1);
 }
 #top-section form {
   display: flex;
@@ -144,7 +129,7 @@
 }
 
 #main-panel {
-  background: #0B212B;
+  background: #1c1e1f;
   min-height: 500px;
   padding-top: 50px;
 }
@@ -153,8 +138,8 @@ footer span.social {
   display: inline-block;
 }
 footer a {
-  color: #e1bee7;
+  color: #d17272;
 }
 footer a:hover {
-  color: #f0ad4e;
+  color: #f83a00;
 }

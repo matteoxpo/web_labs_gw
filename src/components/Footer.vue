@@ -7,9 +7,9 @@
           <div class="footer-text">
             <div class="social-links">
               <span class="social github"><a href="https://github.com/matteoxpo" target="_blank">Github Хромин</a></span>
+              <span class="social github"><a href="https://github.com/matteoxpo" target="_blank">Github Кашаев</a></span>
             </div>
-
-            <p>© 2024 АВТ-113, Хромин С.К.</p>
+            <p>© 2024 АВТ-113 Хромин Кашаев team ^^</p>
           </div>
         </div>
       </div>
@@ -21,7 +21,7 @@
 footer {
   min-height: 300px;
   text-align: center;
-  background-color: #111222;
+  background-color: #ffffff;
   padding-top: 120px;
   font-size: 16px;
   font-weight: 200;
