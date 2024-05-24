@@ -10,6 +10,7 @@
         <li class="nav-item"><a href="https://github.com/matteoxpo/web_labs_gw" target="_blank" class="nav-link px-2">Git</a></li>
         <li class="nav-item"><a href="https://t.me/xpomin" target="_blank" class="nav-link px-2">TG Хромин</a></li>
         <li class="nav-item"><a href="https://t.me/a_sind" target="_blank" class="nav-link px-2">TG Кашаев</a></li>
+        <li class="nav-item"><a href="https://t.me/bolshoy_xyi123" target="_blank" class="nav-link px-2">TG Ткаченко</a></li>
       </ul>
     </div>
   </nav>
